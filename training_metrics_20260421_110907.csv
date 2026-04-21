@@ -1,0 +1,1 @@
+epoch,train_loss,train_error,train_acc,train_soft_ratio,train_score_mean,train_topk_mean,train_score_std,val_loss,val_error,val_acc,val_soft_ratio,val_score_mean,val_topk_mean,val_score_std,test_loss,test_error,test_acc,test_soft_ratio,test_score_mean,test_topk_mean,test_score_std

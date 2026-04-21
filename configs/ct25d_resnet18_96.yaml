@@ -1,0 +1,90 @@
+# CT 2.5D MIL + ResNet18 + TransMIL + 96 instances + CORN
+# Based on original ct25d_transmil.yaml with increased instances (64 -> 96)
+# Usage:
+#   conda run -n lung_new python main.py --config configs/ct25d_resnet18_96.yaml
+
+seed: 1
+no_cuda: false
+
+# Data
+dataset: ct25d
+data_root: /data/scratch/c_pne
+num_classes: 4
+in_channels: 3
+middle_ratio: 0.98
+fixed_num_slices: 256
+slab_depth: 3
+slab_stride: 2
+num_slabs: 64
+center_sampling_mode: random
+test_ratio: 0.2
+val_ratio: 0.1
+max_instances: 0
+scale_to_unit: true
+use_zscore: false
+lung_hu_low: -950.0
+lung_hu_high: -300.0
+min_lung_area_ratio: 0.01
+instance_definition: lung_region_thin_slab
+lung_mask_root: /data/scratch/c_pne_lungmask
+lung_mask_suffix: .nii.gz
+lung_mask_require: false
+cache_root: /data/scratch/c_pne_cache/lung_region_cache_v1
+pseudo_mask_value_threshold: 0.000001
+pseudo_mask_min_component_voxels: 512
+region_num_instances: 96          # increased from 64 -> 96 (~16 per region, ~19% coverage)
+region_out_h: 224
+region_out_w: 224
+region_bbox_margin: 12
+region_bbox_min_size: 32
+region_abs_area_threshold: 100.0
+region_ratio_area_threshold: 0.05
+debug_save_instances: false
+debug_save_lung_split: false
+debug_save_six_regions: false
+debug_dir: debug_instances
+debug_max_cases: 0
+
+# Model
+model: attention
+backbone_name: resnet18
+aggregator: transmil
+transmil_num_heads: 8
+transmil_num_layers: 2
+transmil_dropout: 0.1
+use_burden_features: true
+use_position_embedding: true
+position_embed_dim: 16
+use_coverage_features: true
+coverage_num_bins: 6
+coverage_tau: 0.5
+coverage_temperature: 1.0
+coverage_eps: 0.000001
+burden_score_hidden_dim: 128
+burden_score_dropout: 0.1
+burden_tau: 0.5
+burden_temperature: 1.0
+burden_topk_ratio: 0.1
+pretrained_backbone: true
+score_logit_reg_weight: 0.01
+corn_balanced: true
+instance_aux_loss_weight: 0.1
+freeze_backbone: false
+freeze_backbone_bn: true
+instance_batch_size: 2
+
+# Optimization
+epochs: 30
+lr: 0.0002
+backbone_lr_ratio: 0.1
+grad_accum_steps: 2
+warmup_epochs: 0
+lr_scheduler: plateau
+scheduler_factor: 0.5
+scheduler_patience: 3
+scheduler_min_lr: 0.000001
+reg: 0.0001
+early_stop_patience: 8
+early_stop_min_delta: 0.0
+best_model_path: checkpoints/best_model_resnet18_96_f1.pt
+model_selection_metric: macro_f1

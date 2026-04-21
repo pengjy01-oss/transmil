@@ -1,0 +1,1 @@
+epoch,split,loss,acc,pred_0,pred_1,pred_2,pred_3,true_0,true_1,true_2,true_3,logit0_mean,logit1_mean,logit2_mean,logit0_std,logit1_std,logit2_std,score_mean,score_std,soft_ratio,lr_backbone,lr_head,grad_backbone,grad_transmil,grad_score_head,grad_classifier,corn_task0,corn_task1,corn_task2,cls_weight_norm,cls_bias

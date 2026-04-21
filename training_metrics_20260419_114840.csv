@@ -1,0 +1,2 @@
+epoch,train_loss,train_error,train_acc,train_soft_ratio,train_score_mean,train_topk_mean,train_score_std,val_loss,val_error,val_acc,val_soft_ratio,val_score_mean,val_topk_mean,val_score_std,test_loss,test_error,test_acc,test_soft_ratio,test_score_mean,test_topk_mean,test_score_std
+1,0.7898346030998803,0.718436873747495,0.281563126252505,0.5302180734449972,0.6210943436574841,0.6520393067347502,0.019290115429510275,0.7028007321841233,0.6713286713286714,0.32867132867132864,0.522339560768821,0.5894299891445186,0.6084218558731612,0.012290559777455938,,,,,,,

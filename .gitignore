@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Model checkpoints (too large for GitHub)
+checkpoints/*.pt
+
+# CT scan data (raw data, not code)
+CT*/
+
+# Debug rebuild data
+debug_rebuild/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

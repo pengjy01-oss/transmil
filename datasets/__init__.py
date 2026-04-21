@@ -1,2 +1,4 @@
-
-from .data_interface import DataInterface
+try:
+    from .data_interface import DataInterface
+except ImportError:
+    pass
