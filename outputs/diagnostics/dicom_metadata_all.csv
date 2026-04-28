@@ -1,0 +1,1427 @@
+case_id,class,split,manufacturer,scanner_model,institution,protocol_name,reconstruction_kernel,slice_thickness
+CT092906,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092897,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT095978,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093063,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093022,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088639,0,test,UIH,uCT 780,GZ No.12 people's hospital,Non Contrast,B_SHARP_C,1.0
+CT092256,0,test,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092910,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092209,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100228,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092096,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092950,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093568,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT094952,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Lung Screening,B_SHARP_C,1.0
+CT094958,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092241,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092893,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092012,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092959,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092189,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093190,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099585,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095139,0,test,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092274,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100716,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095038,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087098,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092226,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086733,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095293,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092901,0,test,UIH,uCT 780,GZ No.12 people's hospital,Non Contrast,B_SHARP_C,1.0
+CT092951,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095776,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092501,0,test,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092889,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT086734,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087226,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093023,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT101347,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087277,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092489,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092586,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093039,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088555,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093236,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092483,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093024,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092561,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094506,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT093097,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093059,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094659,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT099316,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092894,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092963,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100570,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086596,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092953,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092945,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088394,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094205,0,test,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT101253,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086723,0,test,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092384,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087009,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086519,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092775,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093012,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088653,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092863,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093099,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092943,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT091895,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095765,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092307,0,val,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT095735,0,val,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT099937,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT101319,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087859,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100800,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092078,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092443,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092679,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100312,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087023,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092877,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092948,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095394,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088074,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093100,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095888,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092856,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092690,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086626,0,val,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092595,0,val,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087842,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094624,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092634,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092623,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088853,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093116,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092708,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094483,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092357,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087434,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093086,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099298,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092900,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092712,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093840,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099814,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092455,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT097925,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087102,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086825,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092246,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094128,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT093026,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088152,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093016,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092446,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100539,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092905,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092921,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092457,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT096036,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088006,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092080,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100463,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100693,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086716,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092764,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092348,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100677,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095018,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087273,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087359,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088436,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087383,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT101162,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088325,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095421,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT093061,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087428,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087608,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094214,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT088656,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094647,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT100674,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088837,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092914,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092886,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100906,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095067,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT093711,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT088321,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094736,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT094245,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087966,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087112,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092364,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT091871,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088420,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092752,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087126,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095281,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092731,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094188,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092547,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092965,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092800,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT096002,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094957,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT094419,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT088467,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088648,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093050,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093698,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092169,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094221,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092511,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099224,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095768,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093038,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092568,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094132,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092922,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092843,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT101029,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT096244,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088431,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092952,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098781,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093377,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100718,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092975,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT093232,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092327,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094040,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092707,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092325,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099159,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092125,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093111,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088643,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092284,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093040,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092785,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094982,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Lung Screening,B_SHARP_C,1.0
+CT092874,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093064,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092883,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098947,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092741,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092107,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092657,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087125,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086730,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Lung Screening,B_SHARP_C,1.0
+CT086790,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092319,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093105,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088525,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT096004,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088283,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094248,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092395,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087727,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT098845,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087109,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098459,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094479,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092075,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093062,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094703,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099701,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT101099,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092875,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093277,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098241,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT086549,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093060,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093149,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088407,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086627,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093087,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092699,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098572,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092077,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092502,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088713,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092976,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092878,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099225,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092895,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT088315,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093030,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092018,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094520,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092202,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094481,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092811,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092743,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092909,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092158,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092887,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092687,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093052,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095725,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT099609,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092436,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092885,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094113,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087193,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093054,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088693,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086858,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092482,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087194,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092076,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088077,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086580,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088358,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT100777,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087357,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092598,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT092523,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT099702,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093228,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT095599,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT093101,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086546,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT087121,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT086636,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092788,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092197,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT094494,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT093216,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088879,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT088364,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092888,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094960,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT094986,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Lung Screening,B_SHARP_C,1.0
+CT097491,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092954,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT098672,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094420,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT091987,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092700,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT092822,0,train,UIH,uCT 780,GZ No.12 people's hospital,Lung Screening,B_SHARP_C,1.0
+CT092715,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT093075,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094989,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Lung Screening,B_SHARP_C,1.0
+CT092001,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT094249,0,train,UIH,uCT 710,GZ NO.12 PEOPLE'S HOSPITAL,Chest Helical,B_SHARP_C,1.0
+CT087734,0,train,UIH,uCT 780,GZ No.12 people's hospital,Chest Helical,B_SHARP_C,1.0
+CT043457,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019691,1,test,,,HOSPITAL,,,1.0
+CT039542,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043061,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021629,1,test,,,HOSPITAL,,,1.0
+CT033489,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048124,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029298,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023210,1,test,,,HOSPITAL,,,1.0
+CT036993,1,test,,,HOSPITAL,,,1.0
+CT033767,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032099,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043134,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024347,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047445,1,test,,,GZ No.12 people's hospital,,,1.0
+CT036313,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022717,1,test,,,HOSPITAL,,,1.0
+CT022167,1,test,,,HOSPITAL,,,1.0
+CT044512,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024012,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022774,1,test,,,HOSPITAL,,,1.0
+CT029279,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT058331,1,test,,,HOSPITAL,,,1.0
+CT074523,1,test,,,GZ No.12 people's hospital,,,1.0
+CT015295,1,test,,,HOSPITAL,,,1.0
+CT043459,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019232,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066340,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032272,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033083,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028862,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036086,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043172,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045254,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028829,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT081420,1,test,,,HOSPITAL,,,1.0
+CT019087,1,test,,,HOSPITAL,,,1.0
+CT058162,1,test,,,HOSPITAL,,,1.0
+CT043450,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034096,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045532,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039137,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039973,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT058018,1,test,,,HOSPITAL,,,1.0
+CT027070,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025601,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048724,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043456,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040369,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022519,1,test,,,HOSPITAL,,,1.0
+CT036513,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041577,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061013,1,test,,,GZ No.12 people's hospital,,,1.0
+CT034807,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037334,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043229,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027987,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074295,1,test,,,GZ No.12 people's hospital,,,1.0
+CT020989,1,test,,,HOSPITAL,,,1.0
+CT037599,1,test,,,HOSPITAL,,,1.0
+CT025748,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022524,1,test,,,HOSPITAL,,,1.0
+CT036543,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024348,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021378,1,test,,,HOSPITAL,,,1.0
+CT018928,1,test,,,HOSPITAL,,,1.0
+CT043119,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034470,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040238,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT005476,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038332,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024270,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031216,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037862,1,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023215,1,val,,,HOSPITAL,,,1.0
+CT035949,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040300,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024510,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036992,1,val,,,HOSPITAL,,,1.0
+CT025747,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034548,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025982,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048012,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025838,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034513,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049026,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT016462,1,val,,,HOSPITAL,,,1.0
+CT039359,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019792,1,val,,,HOSPITAL,,,1.0
+CT065873,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034543,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036506,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028340,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021836,1,val,,,HOSPITAL,,,1.0
+CT022903,1,val,,,HOSPITAL,,,1.0
+CT035354,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042441,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032495,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027430,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049941,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045738,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052488,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073023,1,val,,,GZ No.12 people's hospital,,,1.0
+CT063006,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT026067,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023188,1,val,,,HOSPITAL,,,1.0
+CT033935,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041754,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024565,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045711,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028633,1,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034197,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043516,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036997,1,train,,,HOSPITAL,,,1.0
+CT047775,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT068035,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023574,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042859,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027160,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020895,1,train,,,HOSPITAL,,,1.0
+CT035831,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029004,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043374,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021772,1,train,,,HOSPITAL,,,1.0
+CT010292,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047617,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019817,1,train,,,HOSPITAL,,,1.0
+CT071207,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT018113,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029289,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025698,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038985,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047148,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043758,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028154,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019078,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036730,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034850,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT069170,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021460,1,train,,,HOSPITAL,,,1.0
+CT034531,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034955,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066175,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT016105,1,train,,,HOSPITAL,,,1.0
+CT026001,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024014,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042996,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044573,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021381,1,train,,,HOSPITAL,,,1.0
+CT044907,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT018850,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044298,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030168,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021782,1,train,,,HOSPITAL,,,1.0
+CT020800,1,train,,,HOSPITAL,,,1.0
+CT048928,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063692,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062260,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036774,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038951,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019684,1,train,,,HOSPITAL,,,1.0
+CT066052,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028994,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035428,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045677,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027163,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040314,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT046177,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039695,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043326,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041286,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023007,1,train,,,HOSPITAL,,,1.0
+CT084622,1,train,,,HOSPITAL,,,1.0
+CT021861,1,train,,,HOSPITAL,,,1.0
+CT042105,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033491,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027049,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024139,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078128,1,train,,,GZ No.12 people's hospital,,,1.0
+CT044855,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT068531,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048927,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT026920,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038122,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036729,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020224,1,train,,,HOSPITAL,,,1.0
+CT040734,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038797,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074042,1,train,,,GZ No.12 people's hospital,,,1.0
+CT045533,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045753,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038305,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030733,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023162,1,train,,,HOSPITAL,,,1.0
+CT061488,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034842,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033853,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045694,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037932,1,train,,,GZ No.12 people's hospital,,,1.0
+CT027803,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073428,1,train,,,GZ No.12 people's hospital,,,1.0
+CT034435,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073097,1,train,,,GZ No.12 people's hospital,,,1.0
+CT083881,1,train,,,HOSPITAL,,,1.0
+CT035131,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044442,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025517,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047692,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045796,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022050,1,train,,,HOSPITAL,,,1.0
+CT037679,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT013741,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073400,1,train,,,GZ No.12 people's hospital,,,1.0
+CT015708,1,train,,,HOSPITAL,,,1.0
+CT036084,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035804,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045529,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076027,1,train,,,GZ No.12 people's hospital,,,1.0
+CT036362,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019991,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042535,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041576,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT071980,1,train,,,GZ No.12 people's hospital,,,0.0
+CT049814,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052896,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063166,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT051999,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037931,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021377,1,train,,,HOSPITAL,,,1.0
+CT045460,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040042,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040479,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015184,1,train,,,HOSPITAL,,,1.0
+CT043986,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074242,1,train,,,GZ No.12 people's hospital,,,1.0
+CT084458,1,train,,,HOSPITAL,,,1.0
+CT077702,1,train,,,GZ No.12 people's hospital,,,1.0
+CT021306,1,train,,,HOSPITAL,,,1.0
+CT045679,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039119,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT067997,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044403,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041893,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034870,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023243,1,train,,,HOSPITAL,,,1.0
+CT030818,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021351,1,train,,,HOSPITAL,,,1.0
+CT015155,1,train,,,HOSPITAL,,,1.0
+CT020820,1,train,,,HOSPITAL,,,1.0
+CT024589,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034461,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019283,1,train,,,HOSPITAL,,,1.0
+CT025420,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037050,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019788,1,train,,,HOSPITAL,,,1.0
+CT021440,1,train,,,HOSPITAL,,,1.0
+CT027322,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040962,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041156,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048573,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075810,1,train,,,GZ No.12 people's hospital,,,1.0
+CT044426,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057162,1,train,,,HOSPITAL,,,1.0
+CT064238,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT016434,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036894,1,train,,,HOSPITAL,,,1.0
+CT032712,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034572,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043359,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034545,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038175,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039028,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024594,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025890,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021379,1,train,,,HOSPITAL,,,1.0
+CT033377,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064300,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT016027,1,train,,,HOSPITAL,,,1.0
+CT042772,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034402,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034020,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045534,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037219,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040113,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070037,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062694,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033742,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020567,1,train,,,HOSPITAL,,,1.0
+CT043892,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034674,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040507,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044294,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015256,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040229,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027598,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021981,1,train,,,HOSPITAL,,,1.0
+CT034627,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT067552,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066077,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027182,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034527,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032313,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036241,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028630,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020819,1,train,,,HOSPITAL,,,1.0
+CT037212,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062002,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027420,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034177,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027172,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015190,1,train,,,HOSPITAL,,,1.0
+CT043575,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040933,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041195,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021171,1,train,,,HOSPITAL,,,1.0
+CT022665,1,train,,,HOSPITAL,,,1.0
+CT040615,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045046,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035712,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038453,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038933,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045204,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027223,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT012806,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070169,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039863,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021531,1,train,,,HOSPITAL,,,1.0
+CT052629,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040303,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019079,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035489,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040368,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045670,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040337,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032521,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020222,1,train,,,HOSPITAL,,,1.0
+CT062233,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045142,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064788,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047356,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028446,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT080108,1,train,,,GZ No.12 people's hospital,,,1.0
+CT027101,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039274,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043284,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT065533,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045585,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039142,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028132,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028880,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034717,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034216,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028780,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021075,1,train,,,HOSPITAL,,,1.0
+CT028114,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT065722,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038741,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042088,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040180,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042334,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT067545,1,train,,,GZ No.12 people's hospital,,,1.0
+CT035599,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022030,1,train,,,HOSPITAL,,,1.0
+CT070038,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042663,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030705,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044632,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035039,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043822,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052119,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036134,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041385,1,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048929,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020779,2,test,,,HOSPITAL,,,1.0
+CT042362,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070491,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042668,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031619,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033612,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032512,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029013,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT081865,2,test,,,HOSPITAL,,,1.0
+CT038047,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024698,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070397,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024740,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040626,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022940,2,test,,,HOSPITAL,,,1.0
+CT041198,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029085,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038321,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042406,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030663,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031373,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035488,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033595,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045630,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040047,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073896,2,test,,,GZ No.12 people's hospital,,,1.0
+CT042666,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041647,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043786,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032685,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035752,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049279,2,test,,,GZ No.12 people's hospital,,,1.0
+CT029335,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020713,2,test,,,HOSPITAL,,,1.0
+CT075974,2,test,,,GZ No.12 people's hospital,,,1.0
+CT076621,2,test,,,GZ No.12 people's hospital,,,1.0
+CT041174,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039559,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052361,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033626,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035989,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT069876,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030420,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032509,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038177,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032877,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT017534,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030552,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020697,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024918,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037861,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043115,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040407,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037449,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023017,2,test,,,HOSPITAL,,,1.0
+CT032014,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031796,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027586,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042975,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038480,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038469,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025662,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT080964,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041681,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029250,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042246,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052971,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044678,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035501,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042329,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043891,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033281,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT053222,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057434,2,test,,,HOSPITAL,,,1.0
+CT079911,2,test,,,GZ No.12 people's hospital,,,1.0
+CT027183,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034215,2,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034000,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062792,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031658,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030982,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021444,2,val,,,HOSPITAL,,,1.0
+CT043231,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025954,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028131,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057438,2,val,,,HOSPITAL,,,1.0
+CT033757,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036646,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027072,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT059065,2,val,,,GZ No.12 people's hospital,,,1.0
+CT038343,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028103,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045586,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045628,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036622,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029509,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039144,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045459,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041489,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040583,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034426,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT059638,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036027,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063215,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034681,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040662,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039556,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT056568,2,val,,,GZ No.12 people's hospital,,,1.0
+CT063719,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022263,2,val,,,HOSPITAL,,,1.0
+CT037162,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076515,2,val,,,GZ No.12 people's hospital,,,1.0
+CT036126,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075120,2,val,,,GZ No.12 people's hospital,,,1.0
+CT022340,2,val,,,HOSPITAL,,,1.0
+CT033871,2,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048209,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT058295,2,train,,,HOSPITAL,,,1.0
+CT085200,2,train,,,HOSPITAL,,,1.0
+CT035698,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034151,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039951,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042827,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035383,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030281,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040898,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044449,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020605,2,train,,,HOSPITAL,,,1.0
+CT019988,2,train,,,HOSPITAL,,,1.0
+CT035261,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044643,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032458,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061665,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT018147,2,train,,,HOSPITAL,,,1.0
+CT035262,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042436,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041797,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078007,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040199,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035236,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027820,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034664,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032025,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019149,2,train,,,HOSPITAL,,,1.0
+CT043228,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074165,2,train,,,GZ No.12 people's hospital,,,1.0
+CT019419,2,train,,,HOSPITAL,,,1.0
+CT024995,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057783,2,train,,,HOSPITAL,,,1.0
+CT036195,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025666,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036400,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040771,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037958,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT069631,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030500,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032305,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036609,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033368,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070194,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038768,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045975,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033437,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076372,2,train,,,GZ No.12 people's hospital,,,1.0
+CT039911,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040305,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041248,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035166,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049670,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT016107,2,train,,,HOSPITAL,,,1.0
+CT036621,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043381,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036546,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032377,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070592,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT068523,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039479,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070035,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045583,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033474,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038636,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021533,2,train,,,HOSPITAL,,,1.0
+CT038319,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066269,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT071868,2,train,,,GZ No.12 people's hospital,,,1.0
+CT030388,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038646,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043466,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039909,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035414,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036294,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035078,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048134,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020372,2,train,,,HOSPITAL,,,1.0
+CT020529,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021522,2,train,,,HOSPITAL,,,1.0
+CT061335,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038608,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052725,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT085511,2,train,,,HOSPITAL,,,1.0
+CT038505,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020042,2,train,,,HOSPITAL,,,1.0
+CT066098,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039392,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037393,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022486,2,train,,,HOSPITAL,,,1.0
+CT045941,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023712,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049390,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039466,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045327,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT053070,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043812,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057355,2,train,,,HOSPITAL,,,1.0
+CT041626,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041915,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045693,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039823,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057616,2,train,,,HOSPITAL,,,1.0
+CT072616,2,train,,,GZ No.12 people's hospital,,,1.0
+CT028434,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT067714,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034281,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061334,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045287,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039848,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038100,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033895,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025902,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019816,2,train,,,HOSPITAL,,,1.0
+CT045912,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043882,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034278,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045301,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021765,2,train,,,HOSPITAL,,,1.0
+CT038611,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021281,2,train,,,HOSPITAL,,,1.0
+CT044722,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030607,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028339,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT086021,2,train,,,HOSPITAL,,,1.0
+CT046847,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028390,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049842,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042279,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031572,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039402,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036973,2,train,,,HOSPITAL,,,1.0
+CT080028,2,train,,,GZ No.12 people's hospital,,,1.0
+CT023537,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038132,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015480,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074405,2,train,,,GZ No.12 people's hospital,,,1.0
+CT061867,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT008112,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024793,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048111,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040046,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028150,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057509,2,train,,,HOSPITAL,,,1.0
+CT039989,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015409,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041902,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036675,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038016,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025168,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024074,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045253,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035415,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028268,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033567,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020660,2,train,,,HOSPITAL,,,1.0
+CT036897,2,train,,,HOSPITAL,,,1.0
+CT016211,2,train,,,HOSPITAL,,,1.0
+CT039905,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040153,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047457,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034686,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019734,2,train,,,HOSPITAL,,,1.0
+CT048696,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043834,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030609,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025448,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070492,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021209,2,train,,,HOSPITAL,,,1.0
+CT025316,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074447,2,train,,,GZ No.12 people's hospital,,,1.0
+CT070448,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029763,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034176,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062456,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033905,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070430,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT085301,2,train,,,HOSPITAL,,,1.0
+CT077781,2,train,,,GZ No.12 people's hospital,,,1.0
+CT031045,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035981,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT072058,2,train,,,GZ No.12 people's hospital,,,1.0
+CT035016,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040185,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037116,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076244,2,train,,,GZ No.12 people's hospital,,,1.0
+CT061326,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042675,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040454,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037463,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029416,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021553,2,train,,,HOSPITAL,,,1.0
+CT037639,2,train,,,HOSPITAL,,,1.0
+CT061645,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061383,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038639,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048123,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066332,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT067126,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024943,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033070,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT017535,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036383,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021883,2,train,,,HOSPITAL,,,1.0
+CT043121,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041716,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061266,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036615,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT046554,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044642,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034148,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT046905,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020421,2,train,,,HOSPITAL,,,1.0
+CT071838,2,train,,,GZ No.12 people's hospital,,,1.0
+CT070575,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT014766,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT031383,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048924,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023524,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027458,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044921,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030517,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT065906,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039834,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022488,2,train,,,HOSPITAL,,,1.0
+CT049398,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045203,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040183,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036414,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037511,2,train,,,HOSPITAL,,,1.0
+CT028115,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT053383,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047407,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035381,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070130,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025355,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032481,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036757,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040943,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045456,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070276,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041278,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT019752,2,train,,,HOSPITAL,,,1.0
+CT042584,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062824,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045458,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044256,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022357,2,train,,,HOSPITAL,,,1.0
+CT064207,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025987,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028866,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044450,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022101,2,train,,,HOSPITAL,,,1.0
+CT070131,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022800,2,train,,,HOSPITAL,,,1.0
+CT027831,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061312,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036502,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036127,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037311,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070765,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049187,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075242,2,train,,,GZ No.12 people's hospital,,,1.0
+CT042152,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041888,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033679,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025169,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038298,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070818,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045590,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020150,2,train,,,HOSPITAL,,,1.0
+CT080115,2,train,,,GZ No.12 people's hospital,,,1.0
+CT043890,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027597,2,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032344,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063003,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078908,3,test,,,GZ No.12 people's hospital,,,1.0
+CT034927,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070019,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030612,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036555,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT085372,3,test,,,HOSPITAL,,,1.0
+CT077303,3,test,,,GZ No.12 people's hospital,,,1.0
+CT044662,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040220,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029413,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034228,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052352,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015603,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025964,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064024,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061509,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT058248,3,test,,,HOSPITAL,,,1.0
+CT036721,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028437,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064519,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040058,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040059,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048403,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035130,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045787,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045978,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034622,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044870,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035170,3,test,,,GZ No.12 people's hospital,,,1.0
+CT034218,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT071280,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036253,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036523,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023792,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020835,3,test,,,HOSPITAL,,,1.0
+CT076134,3,test,,,GZ No.12 people's hospital,,,1.0
+CT041079,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039240,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047690,3,test,,,GZ No.12 people's hospital,,,1.0
+CT085338,3,test,,,HOSPITAL,,,1.0
+CT075685,3,test,,,GZ No.12 people's hospital,,,1.0
+CT043861,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT023499,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073382,3,test,,,GZ No.12 people's hospital,,,1.0
+CT061796,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042621,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039146,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047189,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043944,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044083,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032730,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074957,3,test,,,GZ No.12 people's hospital,,,1.0
+CT080382,3,test,,,GZ No.12 people's hospital,,,1.0
+CT036136,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022738,3,test,,,HOSPITAL,,,1.0
+CT044431,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045466,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036542,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035836,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036944,3,test,,,HOSPITAL,,,1.0
+CT040202,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT056080,3,test,,,HOSPITAL,,,1.0
+CT038390,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT011228,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037314,3,test,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT079980,3,test,,,GZ No.12 people's hospital,,,1.0
+CT069503,3,test,,,GZ No.12 people's hospital,,,1.0
+CT084750,3,test,,,HOSPITAL,,,1.0
+CT044238,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040496,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044633,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037484,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064530,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061282,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070599,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044928,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044016,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057748,3,val,,,HOSPITAL,,,1.0
+CT040459,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT083449,3,val,,,HOSPITAL,,,1.0
+CT064303,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029721,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063669,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020177,3,val,,,HOSPITAL,,,1.0
+CT081733,3,val,,,HOSPITAL,,,1.0
+CT033085,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037879,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036021,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT069115,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT059290,3,val,,,GZ No.12 people's hospital,,,1.0
+CT003210,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042884,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038555,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045547,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT079449,3,val,,,GZ No.12 people's hospital,,,1.0
+CT025746,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT083383,3,val,,,HOSPITAL,,,1.0
+CT051942,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035802,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038943,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040928,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027715,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034802,3,val,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063488,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025387,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037873,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063009,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040495,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT012259,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048190,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042688,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038372,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033414,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT068245,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041487,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033098,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042887,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070370,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041866,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030901,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT051936,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022408,3,train,,,GZ No.12 people's hospital,,,1.0
+CT033958,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034996,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039785,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022815,3,train,,,HOSPITAL,,,1.0
+CT029712,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040982,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040321,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042448,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT012495,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070287,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074402,3,train,,,GZ No.12 people's hospital,,,1.0
+CT035657,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036054,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT083109,3,train,,,HOSPITAL,,,1.0
+CT075789,3,train,,,GZ No.12 people's hospital,,,1.0
+CT019745,3,train,,,HOSPITAL,,,1.0
+CT084773,3,train,,,HOSPITAL,,,1.0
+CT036366,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021942,3,train,,,HOSPITAL,,,1.0
+CT029796,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048069,3,train,,,GZ No.12 people's hospital,,,1.0
+CT021279,3,train,,,HOSPITAL,,,1.0
+CT035183,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033050,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036500,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT061566,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047397,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT028956,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041181,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024706,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032331,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033715,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT079889,3,train,,,GZ No.12 people's hospital,,,1.0
+CT039528,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034363,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043283,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT051399,3,train,,,,,,1.0
+CT075835,3,train,,,GZ No.12 people's hospital,,,1.0
+CT036939,3,train,,,HOSPITAL,,,1.0
+CT039394,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034288,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT064307,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035163,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047308,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045317,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043749,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045940,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040446,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076625,3,train,,,GZ No.12 people's hospital,,,1.0
+CT063350,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036753,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041860,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044076,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045032,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT083937,3,train,,,HOSPITAL,,,1.0
+CT035424,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT084208,3,train,,,HOSPITAL,,,1.0
+CT034328,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041426,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063210,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022381,3,train,,,HOSPITAL,,,1.0
+CT039754,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045663,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041583,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT008522,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034936,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039459,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037998,3,train,,,GZ No.12 people's hospital,,,1.0
+CT082538,3,train,,,HOSPITAL,,,1.0
+CT040182,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066127,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034400,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033860,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029272,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062733,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044661,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044177,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034161,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042813,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT068006,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073637,3,train,,,GZ No.12 people's hospital,,,1.0
+CT036896,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047949,3,train,,,HOSPITAL,,,1.0
+CT044823,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032622,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037066,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034696,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044440,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033245,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032176,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043112,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044911,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040654,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052778,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075086,3,train,,,GZ No.12 people's hospital,,,1.0
+CT085876,3,train,,,HOSPITAL,,,1.0
+CT067169,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT042819,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT053705,3,train,,,HOSPITAL,,,1.0
+CT070072,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049732,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT038807,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041351,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044400,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT057947,3,train,,,HOSPITAL,,,1.0
+CT066986,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052649,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034651,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033933,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT079095,3,train,,,HOSPITAL,,,1.0
+CT039377,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT081759,3,train,,,HOSPITAL,,,1.0
+CT049661,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT046963,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040978,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT077787,3,train,,,GZ No.12 people's hospital,,,1.0
+CT032650,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073094,3,train,,,GZ No.12 people's hospital,,,1.0
+CT069606,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048847,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035022,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034576,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048319,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047314,3,train,,,GZ No.12 people's hospital,,,1.0
+CT043239,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029411,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT036956,3,train,,,HOSPITAL,,,1.0
+CT083340,3,train,,,HOSPITAL,,,1.0
+CT041751,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078961,3,train,,,GZ No.12 people's hospital,,,1.0
+CT057729,3,train,,,HOSPITAL,,,1.0
+CT036222,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032460,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT052158,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039226,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT047788,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT073524,3,train,,,GZ No.12 people's hospital,,,1.0
+CT038072,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT020291,3,train,,,HOSPITAL,,,1.0
+CT083246,3,train,,,HOSPITAL,,,1.0
+CT034272,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT071323,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT043003,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT071890,3,train,,,GZ No.12 people's hospital,,,1.0
+CT068359,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039401,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040559,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT030445,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049821,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035504,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024119,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075354,3,train,,,GZ No.12 people's hospital,,,1.0
+CT036218,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT033139,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT021601,3,train,,,HOSPITAL,,,1.0
+CT038508,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT056222,3,train,,,GZ No.12 people's hospital,,,1.0
+CT023709,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039029,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT045767,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039012,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034677,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT025430,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034239,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT063010,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT053491,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066632,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT024752,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035359,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT070549,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044130,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT075495,3,train,,,GZ No.12 people's hospital,,,1.0
+CT083761,3,train,,,HOSPITAL,,,1.0
+CT049825,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT048830,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT035463,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT076548,3,train,,,GZ No.12 people's hospital,,,1.0
+CT074763,3,train,,,GZ No.12 people's hospital,,,1.0
+CT039603,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT058624,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT022883,3,train,,,HOSPITAL,,,1.0
+CT032880,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078291,3,train,,,GZ No.12 people's hospital,,,1.0
+CT029928,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049844,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039041,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT029813,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT072298,3,train,,,GZ No.12 people's hospital,,,1.0
+CT077881,3,train,,,GZ No.12 people's hospital,,,1.0
+CT024173,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT015154,3,train,,,HOSPITAL,,,1.0
+CT037934,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT081164,3,train,,,HOSPITAL,,,1.0
+CT075469,3,train,,,GZ No.12 people's hospital,,,1.0
+CT084913,3,train,,,HOSPITAL,,,1.0
+CT025896,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034820,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT083032,3,train,,,HOSPITAL,,,1.0
+CT019692,3,train,,,HOSPITAL,,,1.0
+CT035058,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT032075,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT066557,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT062101,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044401,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT078881,3,train,,,GZ No.12 people's hospital,,,1.0
+CT039915,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT039698,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT085241,3,train,,,HOSPITAL,,,1.0
+CT036143,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT034512,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT041627,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT044815,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT027596,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT040204,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT049461,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT079109,3,train,,,GZ No.12 people's hospital,,,1.0
+CT009778,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT014719,3,train,,,HOSPITAL,,,1.0
+CT039258,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT037194,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT046758,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT055819,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0
+CT074866,3,train,,,GZ No.12 people's hospital,,,1.0
+CT023790,3,train,,,GZ NO.12 PEOPLE'S HOSPITAL,,,1.0

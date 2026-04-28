@@ -1,0 +1,14 @@
+{
+  "config_path": "/home/pjy/transmil/TransMIL/configs/ct25d_resnet18_128.yaml",
+  "checkpoint_path": "/home/pjy/transmil/TransMIL/checkpoints/best_model_resnet18_128_f1.pt",
+  "output_dir": "/home/pjy/transmil/TransMIL/outputs/diagnostics/smoke_val1_spacingfix",
+  "evaluated_splits": [
+    "val"
+  ],
+  "max_cases_per_split": 1,
+  "train_eval_epoch": 0,
+  "skip_crop_stats": true,
+  "core_metrics_path": "/home/pjy/transmil/TransMIL/outputs/diagnostics/smoke_val1_spacingfix/core_metrics.csv",
+  "combined_predictions_path": "/home/pjy/transmil/TransMIL/outputs/diagnostics/smoke_val1_spacingfix/per_case_predictions_all.csv",
+  "missing_metadata_report_path": "/home/pjy/transmil/TransMIL/outputs/diagnostics/smoke_val1_spacingfix/missing_metadata_report.json"
+}

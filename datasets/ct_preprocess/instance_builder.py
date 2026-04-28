@@ -74,7 +74,7 @@ def generate_lung_region_instances(ct_volume, lung_mask, rng, num_instances=64, 
                                    out_size=(224, 224), bbox_margin=12, bbox_min_size=32,
                                    abs_threshold=100.0, ratio_threshold=0.05,
                                    left_mask=None, right_mask=None, split_method='unknown',
-                                   region_ctx=None):
+                                   region_ctx=None, fixed_base_total=0):
     """Generate [N,C,H,W] region-aware 2.5D instances and metadata."""
     if num_slices < 1 or (num_slices % 2) == 0:
         raise ValueError('num_slices must be a positive odd integer')
@@ -134,8 +134,13 @@ def generate_lung_region_instances(ct_volume, lung_mask, rng, num_instances=64, 
         alloc = {k: int(legal_counts[k]) for k in region_names}
     else:
         n_regions = len(region_names)
-        base_per_region = num_instances // n_regions          # e.g. 128//6 = 21
-        base_total = base_per_region * n_regions              # e.g. 21*6 = 126
+        if fixed_base_total > 0:
+            # fixed_base_total 均分6区，剩余按肺区有效中心数比例分配
+            # e.g. fixed_base_total=96 -> 96//6=16 per region, remain=128-96=32 proportional
+            base_per_region = int(fixed_base_total) // n_regions
+        else:
+            base_per_region = num_instances // n_regions          # e.g. 128//6 = 21
+        base_total = base_per_region * n_regions              # e.g. 16*6 = 96
         alloc = {k: base_per_region for k in region_names}
         remain = int(num_instances - base_total)              # e.g. 128-126 = 2
         if remain < 0:
@@ -208,10 +213,23 @@ def generate_lung_region_instances(ct_volume, lung_mask, rng, num_instances=64, 
     return np.stack(instances, axis=0).astype(np.float32), metadata
 
 
-def build_lung_region_context_from_mask(lung_mask, num_slices=3, abs_threshold=50, ratio_threshold=0.05):
-    """Build full region context dict from a binary lung mask."""
+def build_lung_region_skeleton_from_mask(lung_mask):
+    """Build the selected_idx-independent part of region context from a binary lung mask."""
     left_mask, right_mask, split_method = split_left_right_lung(lung_mask)
     region_masks = get_six_lung_regions(left_mask, right_mask)
+    return {
+        'pseudo_mask': (lung_mask > 0).astype(bool),
+        'left_lung_mask': left_mask.astype(bool),
+        'right_lung_mask': right_mask.astype(bool),
+        'split_method': str(split_method),
+        'region_masks_dict': region_masks,
+    }
+
+
+def build_lung_region_context_from_mask(lung_mask, num_slices=3, abs_threshold=50, ratio_threshold=0.05):
+    """Build full region context dict from a binary lung mask."""
+    region_ctx = build_lung_region_skeleton_from_mask(lung_mask)
+    region_masks = region_ctx['region_masks_dict']
     valid_centers = {}
     region_bboxes = {}
     for name, rmask in region_masks.items():
@@ -224,10 +242,10 @@ def build_lung_region_context_from_mask(lung_mask, num_slices=3, abs_threshold=5
         region_bboxes[name] = get_region_bbox(rmask)
 
     return {
-        'pseudo_mask': (lung_mask > 0).astype(bool),
-        'left_lung_mask': left_mask.astype(bool),
-        'right_lung_mask': right_mask.astype(bool),
-        'split_method': str(split_method),
+        'pseudo_mask': region_ctx['pseudo_mask'],
+        'left_lung_mask': region_ctx['left_lung_mask'],
+        'right_lung_mask': region_ctx['right_lung_mask'],
+        'split_method': region_ctx['split_method'],
         'region_masks_dict': region_masks,
         'valid_region_centers_dict': valid_centers,
         'region_bboxes_dict': region_bboxes,

@@ -1,0 +1,17 @@
+split,true_label,column,n,mean,std,min,q1,median,q3,max
+all,0,spacing_x,0,,,,,,,
+all,0,spacing_y,0,,,,,,,
+all,0,spacing_z,0,,,,,,,
+all,0,slice_thickness,3,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+train,0,spacing_x,0,,,,,,,
+train,0,spacing_y,0,,,,,,,
+train,0,spacing_z,0,,,,,,,
+train,0,slice_thickness,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+val,0,spacing_x,0,,,,,,,
+val,0,spacing_y,0,,,,,,,
+val,0,spacing_z,0,,,,,,,
+val,0,slice_thickness,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0
+test,0,spacing_x,0,,,,,,,
+test,0,spacing_y,0,,,,,,,
+test,0,spacing_z,0,,,,,,,
+test,0,slice_thickness,1,1.0,0.0,1.0,1.0,1.0,1.0,1.0

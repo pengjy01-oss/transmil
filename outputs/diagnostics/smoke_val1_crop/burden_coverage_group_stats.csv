@@ -1,0 +1,17 @@
+feature,group_by,label,mean,std,n
+burden_soft_ratio,true_label,0,0.43409985303878784,0.0,1
+burden_soft_ratio,pred_label_default,0,0.43409985303878784,0.0,1
+burden_score_mean,true_label,0,0.2348567396402359,0.0,1
+burden_score_mean,pred_label_default,0,0.2348567396402359,0.0,1
+burden_topk_mean,true_label,0,0.2372680902481079,0.0,1
+burden_topk_mean,pred_label_default,0,0.2372680902481079,0.0,1
+burden_score_std,true_label,0,0.0013227424351498485,0.0,1
+burden_score_std,pred_label_default,0,0.0013227424351498485,0.0,1
+coverage_z_center,true_label,0,0.5917212963104248,0.0,1
+coverage_z_center,pred_label_default,0,0.5917212963104248,0.0,1
+coverage_z_spread,true_label,0,0.27587082982063293,0.0,1
+coverage_z_spread,pred_label_default,0,0.27587082982063293,0.0,1
+coverage_active_bins_soft,true_label,0,0.43414872884750366,0.0,1
+coverage_active_bins_soft,pred_label_default,0,0.43414872884750366,0.0,1
+coverage_instance_score_mean,true_label,0,0.2348567396402359,0.0,1
+coverage_instance_score_mean,pred_label_default,0,0.2348567396402359,0.0,1

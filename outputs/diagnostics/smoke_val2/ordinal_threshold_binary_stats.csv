@@ -1,0 +1,4 @@
+split,threshold,binary_target,pos,neg,auc,balanced_accuracy_at_0.5,sensitivity,specificity,f1
+val,0,y>0,0,2,,1.0,,1.0,0.0
+val,1,y>1,0,2,,1.0,,1.0,0.0
+val,2,y>2,0,2,,1.0,,1.0,0.0

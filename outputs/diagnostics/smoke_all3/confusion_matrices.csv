@@ -1,0 +1,13 @@
+split,prediction,true_label,pred0,pred1,pred2,pred3
+train,default,0,1,0,0,0
+train,default,1,0,0,0,0
+train,default,2,0,0,0,0
+train,default,3,0,0,0,0
+val,default,0,1,0,0,0
+val,default,1,0,0,0,0
+val,default,2,0,0,0,0
+val,default,3,0,0,0,0
+test,default,0,1,0,0,0
+test,default,1,0,0,0,0
+test,default,2,0,0,0,0
+test,default,3,0,0,0,0

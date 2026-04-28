@@ -94,6 +94,8 @@ def _build_parser():
                         help='keep middle ratio of slices, dropping top/bottom equally')
     parser.add_argument('--fixed_num_slices', type=int, default=256,
                         help='fixed number of centered slices sampled per patient for ct25d')
+    parser.add_argument('--lung_trim_ratio', type=float, default=0.05,
+                        help='fraction to trim from both ends of the effective lung range (0=no trim, must be < 0.5)')
     parser.add_argument('--slab_depth', type=int, default=3,
                         help='odd number of slices stacked per 2.5D slab, e.g., 3 or 5')
     parser.add_argument('--slab_stride', type=int, default=3,
@@ -248,6 +250,8 @@ def _validate_args(args):
         raise ValueError('scheduler_min_lr must be >= 0')
     if args.lung_hu_low >= args.lung_hu_high:
         raise ValueError('lung_hu_low must be < lung_hu_high')
+    if not (0.0 <= args.lung_trim_ratio < 0.5):
+        raise ValueError('lung_trim_ratio must be in [0, 0.5)')
     if not (0.0 <= args.min_lung_area_ratio < 1.0):
         raise ValueError('min_lung_area_ratio must be in [0, 1)')
     if args.region_num_instances < 0:

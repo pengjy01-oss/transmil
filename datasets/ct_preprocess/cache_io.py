@@ -95,6 +95,79 @@ def unpack_region_context_cache(cache):
     }
 
 
+def get_full_mask_cache_path(case_id, cache_root):
+    """Return path to full-volume lung mask cache file."""
+    return os.path.join(cache_root, str(case_id), 'full_lung_mask.npz')
+
+
+def get_full_region_skeleton_cache_path(case_id, cache_root):
+    """Return path to full-volume region skeleton cache file."""
+    return os.path.join(cache_root, str(case_id), 'full_region_skeleton.npz')
+
+
+def load_full_mask_cache(case_id, cache_root):
+    """Load full-volume lung mask cache. Returns bool ndarray [N,H,W] or None."""
+    path = get_full_mask_cache_path(case_id, cache_root)
+    if not os.path.exists(path):
+        return None
+    try:
+        data = np.load(path)
+        return data['mask'].astype(bool)
+    except Exception:
+        return None
+
+
+def save_full_mask_cache(case_id, cache_root, mask):
+    """Save full-volume lung mask (bool/uint8 [N,H,W]) to compressed cache."""
+    path = get_full_mask_cache_path(case_id, cache_root)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    np.savez_compressed(path, mask=np.asarray(mask, dtype=np.uint8))
+
+
+def load_full_region_skeleton_cache(case_id, cache_root):
+    """Load selected_idx-independent full-volume region skeleton cache."""
+    path = get_full_region_skeleton_cache_path(case_id, cache_root)
+    if not os.path.exists(path):
+        return None
+    try:
+        data = np.load(path)
+        region_masks_dict = {}
+        for key in data.files:
+            if key.startswith('region_mask__'):
+                region_masks_dict[key[len('region_mask__'):]] = data[key].astype(bool)
+
+        required = ['mask', 'left_lung_mask', 'right_lung_mask', 'split_method']
+        if any(key not in data.files for key in required):
+            return None
+
+        return {
+            'pseudo_mask': data['mask'].astype(bool),
+            'left_lung_mask': data['left_lung_mask'].astype(bool),
+            'right_lung_mask': data['right_lung_mask'].astype(bool),
+            'split_method': str(np.asarray(data['split_method']).item()),
+            'region_masks_dict': region_masks_dict,
+        }
+    except Exception:
+        return None
+
+
+def save_full_region_skeleton_cache(case_id, cache_root, region_ctx):
+    """Save selected_idx-independent full-volume region skeleton cache."""
+    path = get_full_region_skeleton_cache_path(case_id, cache_root)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    cache_dict = {
+        'mask': np.asarray(region_ctx['pseudo_mask'], dtype=np.uint8),
+        'left_lung_mask': np.asarray(region_ctx['left_lung_mask'], dtype=np.uint8),
+        'right_lung_mask': np.asarray(region_ctx['right_lung_mask'], dtype=np.uint8),
+        'split_method': np.asarray(region_ctx['split_method']),
+    }
+    for region_name, region_mask in region_ctx['region_masks_dict'].items():
+        cache_dict['region_mask__{}'.format(region_name)] = np.asarray(region_mask, dtype=np.uint8)
+
+    np.savez_compressed(path, **cache_dict)
+
+
 def save_region_context_debug(case_id, debug_root, pseudo_mask, region_ctx):
     """Save debug visualization images for one case's region context."""
     case_dir = os.path.join(debug_root, str(case_id), 'preprocess_debug')

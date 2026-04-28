@@ -1,0 +1,13 @@
+group,group_by,group_value,count,ratio_within_group
+false2_to_1,institution,GZ NO.12 PEOPLE'S HOSPITAL,36,0.8780487804878049
+false2_to_1,institution,HOSPITAL,4,0.0975609756097561
+false2_to_1,institution,GZ No.12 people's hospital,1,0.024390243902439025
+false2_to_1,split_method,midline_fallback,20,0.4878048780487805
+false2_to_1,split_method,cc3d,16,0.3902439024390244
+false2_to_1,split_method,morph_cc3d,5,0.12195121951219512
+true2_to_2,institution,GZ NO.12 PEOPLE'S HOSPITAL,26,0.8666666666666667
+true2_to_2,institution,GZ No.12 people's hospital,3,0.1
+true2_to_2,institution,HOSPITAL,1,0.03333333333333333
+true2_to_2,split_method,cc3d,13,0.43333333333333335
+true2_to_2,split_method,midline_fallback,12,0.4
+true2_to_2,split_method,morph_cc3d,5,0.16666666666666666

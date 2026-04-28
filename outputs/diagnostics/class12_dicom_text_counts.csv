@@ -1,0 +1,15 @@
+field,class,value,count,ratio_within_class
+institution,1,GZ NO.12 PEOPLE'S HOSPITAL,285,0.7661290322580645
+institution,1,GZ No.12 people's hospital,18,0.04838709677419355
+institution,1,HOSPITAL,69,0.18548387096774194
+institution,2,GZ NO.12 PEOPLE'S HOSPITAL,319,0.8158567774936062
+institution,2,GZ No.12 people's hospital,22,0.056265984654731455
+institution,2,HOSPITAL,50,0.1278772378516624
+scanner_model,1,missing,372,1.0
+scanner_model,2,missing,391,1.0
+protocol_name,1,missing,372,1.0
+protocol_name,2,missing,391,1.0
+reconstruction_kernel,1,missing,372,1.0
+reconstruction_kernel,2,missing,391,1.0
+manufacturer,1,missing,372,1.0
+manufacturer,2,missing,391,1.0

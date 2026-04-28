@@ -1,0 +1,7 @@
+group,column,n,mean,std,min,q1,median,q3,max
+false2_to_1,spacing_x,0,,,,,,,
+false2_to_1,spacing_y,0,,,,,,,
+false2_to_1,spacing_z,0,,,,,,,
+true2_to_2,spacing_x,0,,,,,,,
+true2_to_2,spacing_y,0,,,,,,,
+true2_to_2,spacing_z,0,,,,,,,

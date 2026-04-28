@@ -1,0 +1,5 @@
+split,split_method,count,percentage
+all,midline_fallback,6,0.75
+all,cc3d,2,0.25
+val,midline_fallback,6,0.75
+val,cc3d,2,0.25

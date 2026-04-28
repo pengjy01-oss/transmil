@@ -1,0 +1,2 @@
+split,true_class,n,mean_P_y_gt_0,std_P_y_gt_0,mean_P_y_gt_1,std_P_y_gt_1,mean_P_y_gt_2,std_P_y_gt_2
+val,0,1,9.290768502978608e-06,0.0,2.170979996662936e-06,0.0,1.8565381196822273e-06,0.0

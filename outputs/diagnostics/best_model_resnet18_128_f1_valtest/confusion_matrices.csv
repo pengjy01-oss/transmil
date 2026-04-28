@@ -1,0 +1,9 @@
+split,prediction,true_label,pred0,pred1,pred2,pred3
+val,default,0,32,0,0,0
+val,default,1,0,25,9,3
+val,default,2,0,19,19,1
+val,default,3,0,2,8,25
+test,default,0,63,0,0,0
+test,default,1,0,49,22,3
+test,default,2,0,41,30,7
+test,default,3,0,2,19,49

@@ -1,0 +1,8 @@
+{
+  "missing_numeric_fields": [
+    "spacing_x",
+    "spacing_y",
+    "spacing_z"
+  ],
+  "missing_text_fields": []
+}

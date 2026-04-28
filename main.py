@@ -47,6 +47,7 @@ def _build_datasets(args):
             num_classes=args.num_classes,
             middle_ratio=args.middle_ratio,
             fixed_num_slices=args.fixed_num_slices,
+            lung_trim_ratio=args.lung_trim_ratio,
             channel_offsets=channel_offsets,
             slab_stride=args.slab_stride,
             num_slabs=args.num_slabs,

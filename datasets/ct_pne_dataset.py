@@ -11,14 +11,19 @@ from PIL import Image
 
 from .ct_preprocess.cache_io import (
     load_case_cache,
+    load_full_mask_cache,
+    load_full_region_skeleton_cache,
+    save_full_mask_cache,
+    save_full_region_skeleton_cache,
     unpack_region_context_cache,
 )
 from .ct_preprocess.instance_builder import (
+    build_lung_region_skeleton_from_mask,
     build_lung_region_context_from_mask,
     generate_lung_region_instances,
 )
 from .ct_preprocess.lung_mask import build_pseudo_lung_mask
-from .ct_preprocess.lung_regions import get_region_bbox
+from .ct_preprocess.lung_regions import get_region_bbox, get_valid_region_centers
 from .ct_preprocess.slice_utils import get_case_id_from_path
 
 
@@ -36,6 +41,7 @@ class CTPneNiiBags(data_utils.Dataset):
         num_classes=4,
         middle_ratio=0.98,
         fixed_num_slices=256,
+        lung_trim_ratio=0.05,
         channel_offsets=(-1, 0, 1),
         slab_stride=3,
         num_slabs=64,
@@ -58,6 +64,7 @@ class CTPneNiiBags(data_utils.Dataset):
         pseudo_mask_value_threshold=1e-6,
         pseudo_mask_min_component_voxels=512,
         region_num_instances=64,
+        region_fixed_base_total=0,
         region_out_size=(224, 224),
         region_bbox_margin=12,
         region_bbox_min_size=32,
@@ -81,6 +88,7 @@ class CTPneNiiBags(data_utils.Dataset):
         self.num_classes = num_classes
         self.middle_ratio = float(middle_ratio)
         self.fixed_num_slices = int(fixed_num_slices)
+        self.lung_trim_ratio = float(lung_trim_ratio)
         self.channel_offsets = tuple(int(v) for v in channel_offsets)
         self.slab_stride = int(slab_stride)
         self.num_slabs = int(num_slabs)
@@ -103,6 +111,7 @@ class CTPneNiiBags(data_utils.Dataset):
         self.pseudo_mask_value_threshold = float(pseudo_mask_value_threshold)
         self.pseudo_mask_min_component_voxels = int(pseudo_mask_min_component_voxels)
         self.region_num_instances = int(region_num_instances)
+        self.region_fixed_base_total = int(region_fixed_base_total)
         self.region_out_size = (int(region_out_size[0]), int(region_out_size[1]))
         self.region_bbox_margin = int(region_bbox_margin)
         self.region_bbox_min_size = int(region_bbox_min_size)
@@ -134,6 +143,8 @@ class CTPneNiiBags(data_utils.Dataset):
             raise ValueError("instance_definition must be 'lung_region_thin_slab' or 'global_slab'")
         if not (0.0 <= self.min_lung_area_ratio < 1.0):
             raise ValueError('min_lung_area_ratio must be in [0, 1)')
+        if not (0.0 <= self.lung_trim_ratio < 0.5):
+            raise ValueError('lung_trim_ratio must be in [0, 0.5)')
         if self.lung_hu_low >= self.lung_hu_high:
             raise ValueError('lung_hu_low must be < lung_hu_high')
         if self.region_num_instances < 0:
@@ -249,26 +260,41 @@ class CTPneNiiBags(data_utils.Dataset):
 
         return start, end
 
-    def _select_fixed_middle_indices(self, num_slices, z_spacing_mm=1.0):
+    def _select_lung_aligned_indices(self, volume_zyx_raw, num_slices):
+        """Uniformly sample fixed_num_slices indices within the trimmed effective lung range.
+
+        Strategy:
+          1. Detect effective lung range [lung_start, lung_end) via HU thresholding.
+          2. Trim head/tail by lung_trim_ratio to drop apex/base junk slices.
+          3. Fallback: if trimmed span < 3 -> use untrimmed lung range;
+                       if still < 3 -> use full volume.
+          4. Uniformly sample fixed_num_slices indices via linspace + clip.
+        """
         if num_slices <= 0:
             raise ValueError('Volume has no slices')
 
-        if z_spacing_mm <= 0.0:
-            z_spacing_mm = 1.0
-
         target = self.fixed_num_slices
-        center_pos = 0.5 * float(num_slices - 1)
 
-        half = target // 2
-        if target % 2 == 0:
-            relative_mm = np.arange(-half, half, dtype=np.float32)
-        else:
-            relative_mm = np.arange(-half, half + 1, dtype=np.float32)
+        # Step 1: effective lung range
+        lung_start, lung_end = self._select_effective_lung_range(volume_zyx_raw)
 
-        relative_idx = np.rint(relative_mm / float(z_spacing_mm)).astype(np.int64)
-        centered_idx = np.rint(center_pos).astype(np.int64) + relative_idx
+        # Step 2: trim
+        lung_span = lung_end - lung_start
+        trim_amt = int(round(lung_span * self.lung_trim_ratio))
+        trim_start = lung_start + trim_amt
+        trim_end = lung_end - trim_amt
 
-        return np.clip(centered_idx, 0, num_slices - 1).astype(np.int64)
+        # Step 3: fallback
+        if (trim_end - trim_start) < 3:
+            trim_start, trim_end = lung_start, lung_end
+        if (trim_end - trim_start) < 3:
+            trim_start, trim_end = 0, num_slices
+
+        # Step 4: uniform linspace sampling within [trim_start, trim_end)
+        lo = int(np.clip(trim_start, 0, num_slices - 1))
+        hi = int(np.clip(trim_end - 1, 0, num_slices - 1))
+        indices = np.rint(np.linspace(lo, hi, target)).astype(np.int64)
+        return np.clip(indices, 0, num_slices - 1)
 
     def _normalize_volume(self, volume):
         x = volume.astype(np.float32)
@@ -369,6 +395,85 @@ class CTPneNiiBags(data_utils.Dataset):
             min_component_voxels=self.pseudo_mask_min_component_voxels,
         )
         return pseudo, 'pseudo_mask'
+
+    def _get_or_build_full_region_skeleton(self, nii_path, full_volume_zyx_raw):
+        """Return selected_idx-independent full-volume region skeleton context."""
+        case_id = get_case_id_from_path(nii_path)
+        if self.cache_root:
+            cached = load_full_region_skeleton_cache(case_id, self.cache_root)
+            if cached is not None:
+                return cached, 'full_region_skeleton_cache'
+
+        mask_zyx = None
+        source = None
+
+        if self.cache_root:
+            cached_mask = load_full_mask_cache(case_id, self.cache_root)
+            if cached_mask is not None:
+                mask_zyx = cached_mask.astype(bool)
+                source = 'full_mask_cache'
+
+        if mask_zyx is None:
+            mask_path = self._resolve_lung_mask_path(nii_path)
+            if mask_path is not None and os.path.exists(mask_path):
+                mask_img = sitk.ReadImage(mask_path)
+                mask_zyx = sitk.GetArrayFromImage(mask_img).astype(bool)
+                source = 'real_mask'
+            else:
+                if self.lung_mask_require and self.lung_mask_root:
+                    raise RuntimeError(
+                        'Lung mask required but missing: {}. '
+                        'Disable with --no_lung_mask_require.'.format(mask_path)
+                    )
+                mask_zyx = build_pseudo_lung_mask(
+                    full_volume_zyx_raw,
+                    value_threshold=self.pseudo_mask_value_threshold,
+                    min_component_voxels=self.pseudo_mask_min_component_voxels,
+                ).astype(bool)
+                source = 'pseudo_mask'
+
+        region_ctx = build_lung_region_skeleton_from_mask(mask_zyx)
+
+        if self.cache_root:
+            save_full_mask_cache(case_id, self.cache_root, mask_zyx)
+            save_full_region_skeleton_cache(case_id, self.cache_root, region_ctx)
+
+        return region_ctx, source
+
+    def _slice_full_region_skeleton(self, full_region_ctx, selected_idx, num_slices):
+        selected_idx = np.asarray(selected_idx, dtype=np.int64)
+        clipped_idx = np.clip(selected_idx, 0, full_region_ctx['pseudo_mask'].shape[0] - 1)
+
+        region_masks_dict = {}
+        valid_region_centers_dict = {}
+        region_bboxes_dict = {}
+        for region_name, region_mask in full_region_ctx['region_masks_dict'].items():
+            sliced_mask = region_mask[clipped_idx].astype(bool)
+            region_masks_dict[region_name] = sliced_mask
+            valid_region_centers_dict[region_name] = get_valid_region_centers(
+                sliced_mask,
+                num_slices=num_slices,
+                abs_threshold=self.region_abs_area_threshold,
+                ratio_threshold=self.region_ratio_area_threshold,
+            )
+            region_bboxes_dict[region_name] = get_region_bbox(
+                sliced_mask,
+                margin=self.region_bbox_margin,
+                min_size=self.region_bbox_min_size,
+            )
+
+        return {
+            'pseudo_mask': full_region_ctx['pseudo_mask'][clipped_idx].astype(bool),
+            'left_lung_mask': full_region_ctx['left_lung_mask'][clipped_idx].astype(bool),
+            'right_lung_mask': full_region_ctx['right_lung_mask'][clipped_idx].astype(bool),
+            'split_method': str(full_region_ctx['split_method']),
+            'region_masks_dict': region_masks_dict,
+            'valid_region_centers_dict': valid_region_centers_dict,
+            'region_bboxes_dict': region_bboxes_dict,
+            'num_slices_for_valid_centers': int(num_slices),
+            'abs_threshold': float(self.region_abs_area_threshold),
+            'ratio_threshold': float(self.region_ratio_area_threshold),
+        }
 
     def _load_region_context_for_case(self, nii_path, selected_idx, volume_zyx_raw):
         case_id = get_case_id_from_path(nii_path)
@@ -522,12 +627,21 @@ class CTPneNiiBags(data_utils.Dataset):
         z_spacing_mm = float(spacing_xyz[2]) if len(spacing_xyz) >= 3 else 1.0
 
         if self.fixed_num_slices > 0:
-            selected_idx = self._select_fixed_middle_indices(num_slices, z_spacing_mm=z_spacing_mm)
+            selected_idx = self._select_lung_aligned_indices(volume_zyx_raw, num_slices)
         else:
             selected_start, selected_end = self._select_middle_slice_range(num_slices)
             selected_idx = np.arange(selected_start, selected_end, dtype=np.int64)
             if selected_idx.size < 3:
                 selected_idx = np.arange(num_slices, dtype=np.int64)
+
+        # Pre-load full-volume lung mask BEFORE slicing (full CT still in memory here).
+        # This cache is independent of selected_idx, so both old and new sampling methods hit it.
+        if self.instance_definition == 'lung_region_thin_slab' and self.cache_root:
+            _full_region_ctx, _fmask_source = self._get_or_build_full_region_skeleton(
+                nii_path, volume_zyx_raw
+            )
+        else:
+            _full_region_ctx, _fmask_source = None, None
 
         volume_zyx_raw = volume_zyx_raw[selected_idx]
         volume_zyx = volume_zyx[selected_idx]
@@ -541,7 +655,15 @@ class CTPneNiiBags(data_utils.Dataset):
         sampling_rng = np.random.RandomState(sampling_seed)
 
         if self.instance_definition == 'lung_region_thin_slab':
-            region_ctx = self._load_region_context_for_case(nii_path, selected_idx, volume_zyx_raw)
+            if _full_region_ctx is not None:
+                region_ctx = self._slice_full_region_skeleton(
+                    _full_region_ctx,
+                    selected_idx,
+                    num_slices=len(self.channel_offsets),
+                )
+                region_ctx['mask_source'] = _fmask_source
+            else:
+                region_ctx = self._load_region_context_for_case(nii_path, selected_idx, volume_zyx_raw)
             left_mask = region_ctx['left_lung_mask']
             right_mask = region_ctx['right_lung_mask']
             split_method = region_ctx['split_method']
@@ -576,6 +698,7 @@ class CTPneNiiBags(data_utils.Dataset):
                 right_mask=right_mask,
                 split_method=split_method,
                 region_ctx=region_ctx,
+                fixed_base_total=self.region_fixed_base_total,
             )
             for m in metadata:
                 m['mask_source'] = str(mask_source)

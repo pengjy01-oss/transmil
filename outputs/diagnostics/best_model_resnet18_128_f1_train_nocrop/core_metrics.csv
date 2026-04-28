@@ -1,0 +1,2 @@
+split,prediction,n_cases,accuracy,balanced_accuracy,macro_f1,mae,adjacent_accuracy,qwk,class1_recall,class2_recall,true1_to_pred2_count,true1_to_pred2_ratio,true2_to_pred1_count,true2_to_pred1_ratio
+train,default,998,0.717434869739479,0.7303806869206652,0.7344777020375375,0.3046092184368738,0.9779559118236473,0.8461099452684117,0.6973180076628352,0.5328467153284672,65,0.24904214559386972,114,0.41605839416058393

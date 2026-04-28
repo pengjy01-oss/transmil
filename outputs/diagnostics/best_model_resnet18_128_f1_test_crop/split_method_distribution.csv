@@ -1,0 +1,7 @@
+split,split_method,count,percentage
+all,midline_fallback,133,0.4666666666666667
+all,cc3d,129,0.45263157894736844
+all,morph_cc3d,23,0.08070175438596491
+test,midline_fallback,133,0.4666666666666667
+test,cc3d,129,0.45263157894736844
+test,morph_cc3d,23,0.08070175438596491

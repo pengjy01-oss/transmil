@@ -13,6 +13,7 @@ num_classes: 4
 in_channels: 3
 middle_ratio: 0.98
 fixed_num_slices: 256
+lung_trim_ratio: 0.05
 slab_depth: 3
 slab_stride: 2
 num_slabs: 64
@@ -32,7 +33,8 @@ lung_mask_require: false
 cache_root: /data/scratch/c_pne_cache/lung_region_cache_v1
 pseudo_mask_value_threshold: 0.000001
 pseudo_mask_min_component_voxels: 512
-region_num_instances: 128          # increased from 64 -> 128 (~16 per region, ~19% coverage)
+region_num_instances: 128          # total instances per bag
+region_fixed_base_total: 96        # 96/6=16 per region uniform + remaining 32 proportional
 region_out_h: 224
 region_out_w: 224
 region_bbox_margin: 12
@@ -94,7 +96,7 @@ use_pseudo12_guidance: false
 pseudo12_lambda: 0.1
 
 # Plan C: Soft-12 KL distribution guidance
-use_soft12_guidance: true
+use_soft12_guidance: false
 soft12_lambda: 0.1
 soft12_tau: 0.5      # Gaussian bandwidth for intra-class soft dist (smaller=sharper)
 soft12_eps: 0.000001
